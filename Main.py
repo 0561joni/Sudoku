@@ -26,7 +26,6 @@ grid1 = [[0,0,2,0,0,0,0,7,0],
 numberOfSolutions = 0
 
 def possible(y,x,testnumber):
-    global grid
     for i in range(0,9):
         if grid[y][i] == testnumber:
             return False
